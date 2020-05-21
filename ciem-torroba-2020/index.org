@@ -1,0 +1,42 @@
+#+title: CIEM Federico Moreno Torroba
+#+subtitle: Profesora: Pilar Ariño  \\
+#+subtitle: Clases del 14 Abril al 21 Mayo 2020.
+#+options: toc:2, 
+#+HTML_HEAD: <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tangerine" rel="stylesheet">
+
+
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+
+
+#+BEGIN_EXPORT html
+<head>
+    <script>
+    function showImagee(){
+ var x =  document.getElementById('loadingImage');
+ if (x.style.display === "none"){
+ x.style.display = "block";} else {
+ x.style.display = "none";} }    
+    </script>
+    </head>
+<body>
+    <button onclick="showImagee()">yeah, me</button>
+
+    <img id="loadingImage" src="hugo-alvarez-montalvo-360x480.jpg" style="visibility:none"/>   
+
+</body>
+#+END_EXPORT
+
+* [[file:14-abril-2020/clase-14-abril-2020.html][Clase Martes 14 Abril 2020]]
+* [[file:16-abril-2020/clase-16-abril-2020.html][Clase Jueves 16 Abril 2020]]
+* [[file:21-abril-2020/clase-21-abril-2020.html][Clase Martes 21 Abril 2020]]
+* [[file:23-abril-2020/clase-23-abril-2020.html][Clase Jueves 23 Abril 2020]]
+* [[file:28-abril-2020/clase-28-abril-2020.html][Clase Martes 28 Abril 2020]]
+* [[file:30-april-2020/clase-30-april-2020.html][Clase Jueves 30 Abril 2020]]
+* [[file:5-mayo-2020/clase-5-mayo-2020.html][Clase Martes 05 Mayo 2020]]
+* [[file:7-mayo-2020/clase-7-mayo.html][Clase Jueves 07 Mayo 2020]]
+* [[file:12-mayo-2020/12-mayo-2020.html][Clase Martes 12 Mayo 2020]]
+* [[file:14-abril-2020/clase-14-abril-2020.html][Clase Jueves 14 Mayo 2020]]
+* [[file:19-mayo-2020/19-may.html][Clase Martes 19 Mayo 2020]]
+* [[file:21-mayo-2020/clase-21-mayo-2020.html][Clase Jueves 21 Mayo 2020]]
+
+

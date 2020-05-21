@@ -1,0 +1,14 @@
+#+title: Clase 14 Abril 2020
+#+HTML_LINK_UP: ../index.html
+#+HTML_LINK_HOME: ../index.html
+
+
+
+[[https://www.loom.com/share/980edec8172640c1a02a66498b4bcd8d][LAm Explicación, página 54 libro]]
+
+[[https://www.loom.com/share/233e5fd2eb5c473d91e65743fd195ccf][LAm, más información]]
+
+[[https://www.loom.com/share/ddf2d9a18cd74e25b78f783bc352dfa3][Ritmo SubDivisión Binaria, Repaso]]
+
+[[https://www.loom.com/share/3455dc29a44b46c0b348293beb468358][Resistiré]]
+  - [[https://youtu.be/jAKyzLxC9oQ][Ytb Resistiré]]
