@@ -1,0 +1,13 @@
+#+title: Semana ...
+#+subtitle: Curso 2020/21 \\
+#+subtitle: Homework dated 04 Marzo 2021 \\
+
+#+HTML_LINK_UP: ../index.html
+#+HTML_LINK_HOME: ../index.html
+
+Este fin de semana toca repasar. Volver a cantar las [[file:../src/index.html][canciones del mundo]] recordar que tenéis audios de [[file:../semanaxx-18-FEB-2021/Canciones-del-mundo-31-32-33-34-35.mp3][estas canciones]] enviados [[file:../semanaxx-18-FEB-2021/Canciones-del-mundo-numero-36-37-38-39-40.mp3][hace dos correos]] y la unidad 1, pág: 12,13,14,15,16 (os [[file:variaciones-pag-16.pdf][he preparado un pdf]] para que cantéis las variaciones, lo añado a este email). Y si os apetece y tenéis tiempo ir al aula virtual y repasar los ritmo de subdivisión ternaria.
+
+
+[[file:estudiando-en-casa-2021-03-06.jpeg]]
+file:estudiando-en-casa-2021-03-06-01.jpeg
+[[file:estudiando-en-casa-2021-03-06-02.jpeg]]  
