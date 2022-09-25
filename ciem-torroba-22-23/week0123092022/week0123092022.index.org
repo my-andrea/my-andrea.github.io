@@ -1,0 +1,57 @@
+#+title: Semana 01 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 23 Septiembre 2022
+#+options: num:nil toc:nil
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+** 
+#+CAPTION: Melodía Uno, repaso de Tercero de Elemental
+[[file:melodias-3-1.png]]
+#+BEGIN_EXPORT html
+ <!-- <p>Melodía 1, repaso de Tercero</p> -->
+<audio controls>
+  <source src="melodia-uno-repaso-de-tercero.m4a" type="audio/mpeg">
+  <source src="melodia-uno-repaso-de-tercero.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+ <br>
+#+END_EXPORT
+ 
+** 
+#+CAPTION: De ritmos a 2 grupos, subdivisión ternaria, repaso de 3º
+ [[file:ritmos-1-2-ele-sub-ternaria.png]]
+#+BEGIN_EXPORT html
+ <!-- <p>De Ritmos para percutir a dos grupos, subdivisión ternaria, repaso de tercero</p> -->
+<audio controls>
+  <source src="ritmo-1-a-2-grupos-subdivision-ternario-repaso-de-tercero.m4a" type="audio/mpeg">
+  <source src="ritmo-1-a-2-grupos-subdivision-tenario-repaso-de-tercero.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+#+END_EXPORT
+
+** 
+#+CAPTION: De ritmos a 2 grupos, subdivisión ternaria, repaso de 2º 
+ [[file:ritmos-2-2-ele-sub-ternaria.png]]
+#+BEGIN_EXPORT html
+ <!-- <p>De ritmos para percutir a dos grupos, ejercicio 2, subdivisión ternaria, repaso de segundo de elemental</p> -->
+<audio controls>
+  <source src="ritmo-2-a-2-grupos-subdivision-ternario-repaso-de-tercero.m4a" type="audio/mpeg">
+  <source src="ritmo-2-a-2-grupos-subdivision-tenario-repaso-de-tercero.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+#+END_EXPORT
+
+#+CAPTION: Tateti, (ejercicio de hoy, las 5 primeras líneas)
+[[file:tateti-ritmo.png]]
+#+BEGIN_EXPORT html
+ <!-- <p> Tateti las cinco primeras lineas</p> -->
+<audio controls>
+  <source src="tateti-las-cinco-primeras-lineas.m4a" type="audio/mpeg">
+  <source src="tateti-las-cinco-primeras-lineas.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+#+END_EXPORT
+
+# #+CAPTION: Melodia 1, repaso de tercero
+# [[file:quena-notas.png]]
