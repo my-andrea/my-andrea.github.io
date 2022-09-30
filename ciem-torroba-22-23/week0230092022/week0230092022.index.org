@@ -1,0 +1,93 @@
+#+title: Semana 02 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 30 Septiembre 2022
+#+options: num:nil toc:2
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html 
+
+** Melodías 3, 2
+#+CAPTION: Melodía 3º 2-2, repaso (escala [[https://es.wikipedia.org/wiki/Si_menor][=Sim=]] tonalidad relativa =Re mayor=)
+[[file:melodias.3ro.2-2.png]]
+
+#+BEGIN_EXPORT html
+ <!-- <p>Melodía 1, repaso de Tercero</p> -->
+<audio controls>
+  <source src="Melodias.3.2.Repaso.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+
+
+** Melodías 3, 3
+
+#+CAPTION: Melodías 3º 3, repaso
+[[file:melodias.3ro.3.png]]
+#+BEGIN_EXPORT html
+<audio controls>
+  <source src="Melodias.3.3.Repaso.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Melodías 3. 4 (partitura??)
+
+#+BEGIN_EXPORT html
+<audio controls>
+  <source src="Melodias.3.4.Repaso.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Ritmos.
+#+CAPTION: Ritmo 3 2º Elemental sub-ternaria
+[[file:Ritmo.3.2do.Ele.sub.ternaria.png]]
+#+BEGIN_EXPORT html
+<audio controls>
+  <source src="Ritmo.3.2.Ele.sub.ternaria.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+
+** Ritmos, Vals de Shostakovich.
+
+#+CAPTION: Ritmo 12 8 vals de Shostakovich
+[[file:Ritmo.128.Vals.de.Shostakovich.png]]
+#+BEGIN_EXPORT html
+<audio controls>
+  <source src="Ritmo.12-8vals.de.Shostakovich.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Tateti
+
+#+CAPTION: Tateti 
+[[file:tateti-ritmo.png]]
+#+BEGIN_EXPORT html
+<audio controls>
+  <source src="Tateti.Las.cinco.primeras.lineas.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
