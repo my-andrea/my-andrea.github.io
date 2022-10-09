@@ -1,0 +1,142 @@
+#+title: Semana 03 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 07 October 2022
+#+options: num:nil toc:2
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html 
+
+1º Repasar las Melodías 3.1, 3.2, 3.3, 3.4, *3.5 Variaciones de Mozart*, *3.6 Variaciones de Mozart* tonalidad menor. En este correo os mando los pdf de las melodías y en el aula virtual al final de todo en la carpeta audios de clase tenéis los audios grabados en clase de las melodías.
+
+2º Ir al aula virtual, buscar *Dictados pase de grado profesional*, hacer click en la carpeta Audios Clave de Fa y realizar los dictados del nº1-7.
+
+3º Repasar los *ritmos de subdivisión ternaria de =tateti=* y de subdivisión binaria (célula 1-47) y (48-60), os paso los pdf de los *ritmos de subdivisión binara* y *ternaria tateti* en este correo. Podéis encontrar en la carpeta de audios de 3º y 4ª semana los *audios grabados en clase*.
+
+Recordar tenéis dos fines de semana para trabajar, no lo hagáis todo en un solo fin de semana.
+
+** Melodías
+
+#+CAPTION: Melodía 3.1
+[[file:Melodias.3.1.png]]
+
+#+CAPTION: Melodía 3.2
+[[file:Melodias.3.2.3.png]]
+
+#+CAPTION: Melodía 3.3
+[[file:Melodias.3.3.png]]
+
+#+CAPTION: Melodía 3.4
+[[file:Melodias.3.4.mus.png]]
+
+#+CAPTION: Melodía 3.5 Variaciones de Mozart
+[[file:Variaciones.de.Mozart.mus.png]]
+
+#+CAPTION: Melodía 3.6 Variaciones de Mozart tonalidad menor
+[[file:Variaciones.sobre.un.tema.de.Mozart.Tonalidad.menor.png]]
+
+** Dictados
+#+CAPTION: Dictados, Clave de Fa, dictados 1-7
+[[file:Dictados.Clave.de.Fa-1-7.png]]
+#+BEGIN_EXPORT html
+
+<audio controls>
+  <source src="Dictados.clave.de.Fa.1-7.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Ritmos
+#+CAPTION: TATETI, ritmo de subdivisión ternaria
+[[file:TATETIritmo.png]]
+
+#+CAPTION: Ritmos de Subdivisión binaria (cels 1-47, 48-60)
+[[file:Ritmos.subdivision.binaria.II.mus.png]]
+
+** Audios de Clase
+(y repasar)
+#+BEGIN_EXPORT html
+  <p> Acompañamiento de Piano, página 20 círculo Uno </p>
+<audio controls>
+  <source src="Acompanamiento.de.piano.Pagina.20.Circulo.uno.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+  <p> Acompañamiento de Piano, página 20 círculo 2 </p>
+
+<audio controls>
+  <source src="Acompanamiento.de.piano.Pagina.20.Circulo.2.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+  <p> Acompañamiento para el Tema de Zarabanda, 4 voces, bajo, tenor, contralto, soprano </p>
+<audio controls>
+  <source src="Acompanamiento.de.piano.Sarabanda.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+ <p>Acompañamiento de Piano, página 18, Adagio </p>
+<audio controls>
+  <source src="Acompanamiento.de.piano.zarabanda.Adagio.tres.voces.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+ <p> Acompañamiento para el tema Folia (de Miguel Llobe), Tema y variaciones.
+ incluye página 14, variación 5, variación 6, variación 7 (9/8), variación 8, página 15, variación 9, variación 10, variación 11 (rápido), variación 17 (9/8), variación 12/8,  
+ </p>
+<audio controls>
+  <source src="Folia.Tema.y.variaciones.Acompanamiento.de.piano.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+   <p> Ritmo, página 23 </p>
+<audio controls>
+  <source src="Ritmos.fusas.Pagina.28.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+
+** Improvisar
+
+#+BEGIN_EXPORT html
+ <p> Practica de Improvisación (con estructura en Re menor) </p>
+<audio controls>
+  <source src="Estructura-en-re-menor-para-improvisar.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
