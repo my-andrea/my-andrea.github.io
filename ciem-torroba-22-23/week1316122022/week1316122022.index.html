@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-12-18 Sun 14:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Semana 13 Curso 2022/2023</title>
+<meta name="author" content="txarly" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+<style type="text/css">body{max-width:80%; margin:auto; }</style>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="../index.html"> UP </a>
+ |
+ <a accesskey="H" href="../index.html"> HOME </a>
+</div><div id="content" class="content">
+<h1 class="title">Semana 13 Curso 2022/2023
+<br />
+<span class="subtitle">Profesora Pilar Ariño <br />
+Homework dated 16 December 2022</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgff91dd9">Ritmos</a>
+<ul>
+<li><a href="#ritmo_9"></a></li>
+<li><a href="#ritmo_10"></a></li>
+</ul>
+</li>
+<li><a href="#org087d26d">Libro para Cantar, Vol.4</a>
+<ul>
+<li><a href="#l-para-cantar_11"></a></li>
+<li><a href="#l-para-cantar_12"></a></li>
+</ul>
+</li>
+<li><a href="#org963f8d7">Dictados</a>
+<ul>
+<li><a href="#dictado_11_12"></a></li>
+<li><a href="#dictado_13_14"></a></li>
+<li><a href="#dictado_15_16"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<ul class="org-ul">
+<li>Para esta semana estudiar el <a href="#ritmo_9">ritmo 9</a> y el ejercicio rítmico nº 1 del <a href="#ritmo_10">ritmo 10</a>, recordar como lo hemos realizado en clase con metrónomo, estudiarlo así.</li>
+
+<li>Cantar las lecciones del libro 4 para cantar <a href="#l-para-cantar_11">nº11</a> y <a href="#l-para-cantar_12">12</a> con los audios de acompañamiento de piano ( los audios puedes encontrar los en el aula virtual). </li>
+
+<li>Realizar Los dictados <a href="#dictado_11_12">nº 12</a>, <a href="#dictado_13_14">13, 14</a> y <a href="#dictado_15_16">15 de I-IV-V-I</a> que se encuentran en el aula virtual.  en la sección Dictados pase a grado profesional.</li>
+
+<li>Cantar las melodías de blues del aula virtual, os mando <a href="../week111202122022/week111202122022.index.html#E_blues">la grabación realizada en clase</a>, lo hicimos rápido, así que va a toda velocidad, recordar que en la sección de blues tenéis los audios para poder acompañaros las melodías blues. En la carpeta de audios podéis encontrar los tracks, <a href="../week111202122022/week111202122022.index.html#blues_E">E para cantar los blues 1, 4 y 6</a>; <a href="../week111202122022/week111202122022.index.html#blues_C">C para cantar los blues  3 y 5</a> ; <a href="../week111202122022/week111202122022.index.html#blues_D">D para cantar el blues 2</a>.</li>
+</ul>
+
+<p>
+Para Navidad tendréis que terminar los dictados de I-IV-V-I y realizar si podéis lo dictados desde 1-14 de 8 compases que están en el aula virtual, repasar por favor los ritmos dados.
+</p>
+
+<p>
+Os mando unos enlaces de vídeos musicales, espero que os guste: <br />
+<a href="https://youtu.be/q6qwJHAZZVk">https://youtu.be/q6qwJHAZZVk</a>,<br />
+<a href="https://youtu.be/4QnPNleGIgE">https://youtu.be/4QnPNleGIgE</a>,<br />
+<a href="https://youtu.be/G4nX0Xrn-wo">https://youtu.be/G4nX0Xrn-wo</a>,<br />
+<a href="https://youtu.be/e9GtPX6c_kg">https://youtu.be/e9GtPX6c_kg</a>. <br />
+</p>
+<div id="outline-container-orgff91dd9" class="outline-2">
+<h2 id="orgff91dd9">Ritmos</h2>
+<div class="outline-text-2" id="text-orgff91dd9">
+</div>
+<div id="outline-container-ritmo_9" class="outline-3">
+<h3 id="ritmo_9"></h3>
+<div class="outline-text-3" id="text-ritmo_9">
+
+<div id="org9f9794c" class="figure">
+<p><img src="4_Ele_Ritmo_9_Compases_irregulares.png" alt="4_Ele_Ritmo_9_Compases_irregulares.png" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Ritmo 9</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-ritmo_10" class="outline-3">
+<h3 id="ritmo_10"></h3>
+<div class="outline-text-3" id="text-ritmo_10">
+
+<div id="orgdc77c9a" class="figure">
+<p><img src="4_Ele_Ritmo_10_Compases_irregulares.png" alt="4_Ele_Ritmo_10_Compases_irregulares.png" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Ritmo 10</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org087d26d" class="outline-2">
+<h2 id="org087d26d">Libro para Cantar, Vol.4</h2>
+<div class="outline-text-2" id="text-org087d26d">
+</div>
+<div id="outline-container-l-para-cantar_11" class="outline-3">
+<h3 id="l-para-cantar_11"></h3>
+<div class="outline-text-3" id="text-l-para-cantar_11">
+ <p>Libro Para Cantar, Vol 4. Melodía 11 </p>
+<audio controls>
+<source src="Leccion_11.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+</div>
+</div>
+<div id="outline-container-l-para-cantar_12" class="outline-3">
+<h3 id="l-para-cantar_12"></h3>
+<div class="outline-text-3" id="text-l-para-cantar_12">
+  <p>Libro Para Cantar, Vol 4. Melodía 12</p>
+<audio controls>
+<source src="Leccion_12.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org963f8d7" class="outline-2">
+<h2 id="org963f8d7">Dictados</h2>
+<div class="outline-text-2" id="text-org963f8d7">
+</div>
+<div id="outline-container-dictado_11_12" class="outline-3">
+<h3 id="dictado_11_12"></h3>
+<div class="outline-text-3" id="text-dictado_11_12">
+ <p>Dictado 11, 12, tal como aparece en la carpeta, aula virtual</p>
+<audio controls>
+<source src="Dictado_numero_11_ y_12.I-IV-V-I.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+</div>
+</div>
+<div id="outline-container-dictado_13_14" class="outline-3">
+<h3 id="dictado_13_14"></h3>
+<div class="outline-text-3" id="text-dictado_13_14">
+ <p>Dictado 13, 14, tal como aparece en la carpeta, aula virtual</p>
+<audio controls>
+<source src="Dictado_numero_13_ y_14.I-IV-V-I.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+</div>
+</div>
+<div id="outline-container-dictado_15_16" class="outline-3">
+<h3 id="dictado_15_16"></h3>
+<div class="outline-text-3" id="text-dictado_15_16">
+ <p>Dictado 15, 16, tal como aparece en la carpeta, aula virtual</p>
+<audio controls>
+<source src="Dictado_numero_15_ y_16.I-IV-V-I.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: txarly</p>
+<p class="date">Created: 2022-12-18 Sun 14:31</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
