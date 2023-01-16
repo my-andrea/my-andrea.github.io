@@ -1,0 +1,57 @@
+#+title: Semana 14 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 13 January 2023
+#+options: num:nil toc:2
+#+startup: overview
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+- Los que no habéis realizados los dictados del aula virtual en navidades, intentar trabajarlos este fin de semana, mando en este correo el [[#dictado_8c_pdf][pdf de los dictados]] y os recuerdo que encontraréis los audios en el aula virtual en la sección de dictados con el titulo Audios dictados de 8 compases [[#dictado_8c_1-14][nº 1-14]].
+
+- Trabajar la entonación de canciones para cantar del libro 4º, la [[#L_paraCantar4_13][melodía nº 13]], tenéis el audio en el aula virtual.
+
+- Trabajar solamente el ejercicio 1 del [[#ritmo_7][ritmo 7]], mando el pdf en este email.
+* Dictados
+** 
+:PROPERTIES:
+:CUSTOM_ID: dictado_8c_pdf
+:END:
+#+CAPTION: Dictado de 8 compases, nº 1-14
+[[file:1-14_Dic_completar.png]]
+** 
+:PROPERTIES:
+:CUSTOM_ID: dictado_8c_1-14
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+<source src="Dictado_1_2_3.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+* Libro Para Cantar, Vol 4
+** 
+:PROPERTIES:
+:CUSTOM_ID: L_paraCantar4_13
+:END:
+#+BEGIN_EXPORT html
+ <p>Libro para Cantar Vol 4, partitura 13</p>
+<audio controls>
+<source src="Leccion_13.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+* Ritmo
+:PROPERTIES:
+:CUSTOM_ID: ritmo_7
+:END:
+[[file:4_Ele_Ritmo_7.png]]
+
+
