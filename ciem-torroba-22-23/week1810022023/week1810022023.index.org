@@ -1,0 +1,129 @@
+#+title: Semana 18 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 10 Febrero 2023
+#+options: num:nil toc:2
+#+startup: overview
+#+HTML_HEAD: <style type="text/css">.title{font-size:58px; text-shadow: 4px 4px 4px #233b4d; text-align:center;}body{max-width:85%; margin:auto; font-family:'Open Sans', serif; font-size:100%; text-shadow: 1px 1px 1px #aaa; background-color: #F8FBFB;} </style>
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+Estudiar de pie, llevando el dibujo del compás, excepto aquellos que tengan problemas serios y ya hemos comentado en clase. Cuando estudiéis, intentar hacerlo con una emisión buena de voz, acostumbraros a que la gente os escuche. Aquí las tareas de este fin de semana:
+
+1º Repasar las melodías [[#p-cantar_mel_18][18]] y [[#p-cantar_mel_19][19]] del libro para cantar 4º (podéis encontrar el audio del acompañamiento de piano en el aula virtual). Intentar cantar la melodía con efectos sonoros para colocar la voz Brr, Ñe, Ña, Ma....
+
+2º Repasar los ritmos [[#ritmo_3][3]], [[#ritmo_4][4]] y [[#ritmo_5][5]]  de 'Ritmo, Acceso a 1º de profesional..' Recordar hacerlo como hicimos en clase, primero dibujar el compás y ver los diferentes cambios de compás según el pulso, luego lo leéis con onomatopeyas y por último con notas, la duración de este trabajo tiene que ser entre 2 minutos y medio y 3 minutos. Solamente quiero que incidáis en los ritmos que os cueste. (te mando en este email el pdf). Aquellos que tenéis problemas con el ritmo repasar las lecciones que hemos estudiado.
+
+3º Realizar el [[#mock_8][modelo nº 8]] de los 50 modelos de teoría, acostumbraros a realizar el círculo de 5ªs cada vez que hagáis uno de los modelos .
+
+4º Realizar los [[#dictado_19_20][dictados 19, 20]], [[#dictado_21_22][21 y 22]] del aula virtual.
+
+5º Cantar las melodías nº [[#melodia_1_2][1,2]], [[#melodia_3_4][3,4]], [[#melodia_5_6][5 y 6]] a primera vista, tienes en el aula virtual un acompañamiento de piano para que te sea más fácil.
+
+* (Libro) Para Cantar, Vol 4
+** melodía 18
+:PROPERTIES:
+:CUSTOM_ID: p-cantar_mel_18
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+<source src="Leccion_18.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Melodía 19
+:PROPERTIES:
+:CUSTOM_ID: p-cantar_mel_19
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+<source src="Leccion_19.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+* Ritmo
+** 3
+:PROPERTIES:
+:CUSTOM_ID: ritmo_3
+:END:
+#+CAPTION: Ritmo, 3
+[[file:ritmo_3_acceso_prof.png]]
+** 4
+:PROPERTIES:
+:CUSTOM_ID: ritmo_4
+:END:
+#+CAPTION: Ritmo 4
+[[file:ritmo_4_acceso_prof.png]]
+
+** 5
+:PROPERTIES:
+:CUSTOM_ID: ritmo_5
+:END:
+#+CAPTION: Ritmo 5
+[[file:ritmo_5_acceso_prof.png]]
+* Modelo de Teoría
+** [[file:mock_8.png]]
+:PROPERTIES:
+:CUSTOM_ID: mock_8
+:END:
+
+#+CAPTION: Ejercicio, resolver Mock 8
+[[file:mock-Teoria_8.png]]
+
+* Dictados
+** 
+:PROPERTIES:
+:CUSTOM_ID: dictado_19_20
+:END:
+#+BEGIN_EXPORT html
+ <p>Dictado 19, 20</p>
+<audio controls>
+
+<source src="Dictado_19_20.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT   
+** 
+:PROPERTIES:
+:CUSTOM_ID: dictado_21_22
+:END:
+#+BEGIN_EXPORT html
+ <p>Dictado 21, 22</p>
+<audio controls>
+
+<source src="Dictado_21_22.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT   
+* Melodías Para Cantar a Primera Vista
+** Melodía 1, 2
+:PROPERTIES:
+:CUSTOM_ID: melodia_1_2
+:END:
+[[file:melodia_para_cantar_prim_vista_1_2.png]]
+
+** Melodía 3, 4
+:PROPERTIES:
+:CUSTOM_ID: melodia_3_4
+:END:
+[[file:melodia_para_cantar_prim_vista_3_4.png]]
+
+** Melodía 5,6
+:PROPERTIES:
+:CUSTOM_ID: melodia_5_6
+:END:
+[[file:melodia_para_cantar_prim_vista_5_6.png]]
