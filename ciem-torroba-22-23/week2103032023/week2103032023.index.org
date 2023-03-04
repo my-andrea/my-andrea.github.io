@@ -1,0 +1,159 @@
+#+title: Semana 21 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 03 March 2023
+#+options: num:nil toc:2
+#+startup: overview
+#+HTML_HEAD: <style type="text/css">.title{font-size:58px; text-shadow: 1px 1px 1px #233b4d; text-align:center;}body{max-width:85%; margin:auto; font-family:'Open Sans', serif; font-size:100%; text-shadow: 1px 1px 1px #aaa; background-color: #F8FBFB;} </style>
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+Hola bich@s,  este fin de semana espero que os llegue a todos el correo, ya que un grupo lo recibió y el otro no.
+
+1º Repasar otra vez las [[#melodia_22][melodías 22]] y [[#melodia_23][23]] del libro para cantar 4º (podéis encontrar el audio del acompañamiento de piano en el aula virtual). Intentar cantar la melodía con efectos sonoros para colocar la voz Brr, Ñe, Ña,Ma.
+
+2º Repasar los [[#ritmo_12][ritmos  12]], [[#ritmo_13][13]] y [[#ritmo_14][14]]  de Ritmo. Acceso a 1º de profesional. Recordar hacerlo como hicimos en clase, primero dibujar el compás y ver los diferentes cambios de compás según el pulso, luego lo leéis con onomatopeyas y por último con notas, la duración de este trabajo tiene que ser entre 2 minutos y medio y 3 minutos. Solamente quiero que incidáis en los ritmos que os cueste. ( te mando en este email el pdf). Repasar las lecciones que hemos estudiado.
+
+3º Realizar el [[#mock_12][modelo nº 12]] de los 50 modelos de teoría, acostumbraros a realizar el [[http://my-andrea.github.io/ciem-torroba-22-23/week1917022023/circulo-de-5a-con-relativas_yliwb-scaled.jpg][círculo de 5ªs]].
+
+4º Realizar los [[#dictado_25][dictados 25]] y [[#dictado_26][26]] del aula virtual. Os he puesto el audio del dictado 25 y 26 en el aula virtual.
+
+5º Cantar las [[#melodia_primera_vista_17][melodías nº 17]], [[#melodia_primera_vista_18][18]], y [[#melodia_primera_vista_19][19]]  a primera vista, tienes en el aula virtual un acompañamiento de piano para que te sea más fácil.
+
+Trabajar la [[http://my-andrea.github.io/ciem-torroba-22-23/week1917022023/week1917022023.index.html#danza_del_sol_voz_11_tutorial][danza al sol]], he podido trabajarlo con 4º B pero no con el 4º A.
+
+Por último os mando 2 enlaces de percusión corporal https://youtu.be/B2UcIaIe2xE y https://youtu.be/VtO-3Tmlwxk
+
+* (Libro) Para Cantar, Vol 4
+** melodía 22
+:PROPERTIES:
+:CUSTOM_ID: melodia_22
+:END:
+#+begin_export html
+<audio controls>
+<source src="Leccion_22.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+** melodía 23
+:PROPERTIES:
+:CUSTOM_ID: melodia_23
+:END:
+#+begin_export html
+<audio controls>
+<source src="Leccion_23.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+
+
+
+
+* Ritmo
+** 12
+:PROPERTIES:
+:CUSTOM_ID: ritmo_12
+:END:
+#+CAPTION: Ritmo, 12
+[[file:ritmo_acceso_1a_prof_12.png]]
+** 13
+:PROPERTIES:
+:CUSTOM_ID: ritmo_13
+:END:
+#+CAPTION: Ritmo, 13
+[[file:ritmo_acceso_1a_prof_13.png]]
+** 14
+:PROPERTIES:
+:CUSTOM_ID: ritmo_14
+:END:
+[[file:ritmo_acceso_1a_prof_14.png]]
+
+
+* Modelo de Teoría
+:PROPERTIES:
+:CUSTOM_ID: mock_12
+:END:
+Para una versión pdf de esta vista y poder imprimir, usar [[file:mock_12.pdf][este link]] (hacer download e imprimir)
+#+CAPTION: Ejercicio, resolver Mock 12
+[[file:mock_teoria_12.png]]
+
+* Dictados
+** Dictado, 25
+:PROPERTIES:
+:CUSTOM_ID: dictado_25
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="dictado_num_25.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+** Dictado, 26
+:PROPERTIES:
+:CUSTOM_ID: dictado_26
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="dictado_num_26.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+* Melodías para Cantar a Primera Vista
+  Melodía, 17
+** [[file:melodia_cantar_1a_vista_17.png]]
+:PROPERTIES:
+:CUSTOM_ID: melodia_primera_vista_17
+:END:
+#+begin_export html
+<audio controls>
+<source src="entonacion_primera_vista_17.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+Melodía, 18
+** [[file:melodia_cantar_1a_vista_18.png]]
+:PROPERTIES:
+:CUSTOM_ID: melodia_primera_vista_18
+:END:
+#+begin_export html
+<audio controls>
+<source src="entonacion_primera_vista_18.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+Melodía, 19
+** [[file:melodia_cantar_1a_vista_19.png]]
+:PROPERTIES:
+:CUSTOM_ID: melodia_primera_vista_19
+:END:
+#+begin_export html
+<audio controls>
+<source src="entonacion_primera_vista_19.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
