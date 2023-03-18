@@ -1,0 +1,91 @@
+#+title: Semana 23 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 17 March 2023
+#+options: num:nil toc:2
+#+startup: overview
+#+HTML_HEAD: <style type="text/css">.title{font-size:58px; text-shadow: 1px 1px 1px #233b4d; text-align:center;}body{max-width:85%; margin:auto; font-family:'Open Sans', serif; font-size:100%; text-shadow: 1px 1px 1px #aaa; background-color: #F8FBFB;} </style>
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+1º Repasar otra vez las [[#melodia_25][melodías 25]] y [[#melodia_26][26]] del libro para cantar 4º (podéis encontrar el audio del acompañamiento de piano en el aula virtual). Intentar cantar la melodía con efectos sonoros para colocar la voz Brr, Ñe, Ña,Ma...
+
+2º Repasar los ritmos  de Acceso a 1º de profesional. (Ya hemos trabajado los 16 ritmos, la próxima semana os daré ritmos fotocopiados) Recordar hacerlo como hicimos en clase, primero dibujar el compás y ver los diferentes cambios de compás según el pulso, luego lo leéis con onomatopeyas y por último con notas, la duración de este trabajo tiene que ser entre 2 minutos y medio y 3 minutos. Solamente quiero que incidáis en los ritmos que os cueste. (te mando en este email el pdf). Repasar las lecciones que hemos estudiado.
+
+3º Trabajar la teoría en el siguiente enlace https://www.teoria.com/es/ pincha la siguiente dirección te he grabado un video para los que faltasteis en la explicación como trabajar esa página.  https://share.vidyard.com/watch/HXXH1xJV5krbPi3GwMP8F9?
+
+4º Corregir los [[#dictado_27_28][dictados 27  y 28]] del aula virtual. Os mando las soluciones de los dictados anteriores. Trabajar dictados rítmicos con la página teoría.com.
+
+
+Trabajar [[http://my-andrea.github.io/ciem-torroba-22-23/week1917022023/week1917022023.index.html#danza_del_sol_voz_11_tutorial][la danza al sol]]. Por favor con los alumnos más pequeños estoy al 100% de velocidad.
+
+Pasar un estupendo fin de semana. \\
+
+
+PD, Email extra. Algunos de vosotros me habéis escrito en que tonalidad improvisar, en este correo os mando un [[#improvisar_en_La_m][audio y una plantilla para improvisar]], es más sencillo que lo que hicimos en clase, ánimo.
+
+* (Libro) Para Cantar, Vol 4
+** melodía 25
+:PROPERTIES:
+:CUSTOM_ID: melodia_25
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="Leccion_25.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+** melodía 26
+:PROPERTIES:
+:CUSTOM_ID: melodia_26
+:END:
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="Leccion_26.mp3" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+
+** Dictado
+:PROPERTIES:
+:CUSTOM_ID: dictado_27_28
+:END:
+Esta semana incluyamos el ejercicio de dictado 27 y 28, la partitura y la solución al ejercicio.
+[[file:27_28.png]]
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="Dictado_27_28.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
+
+* Improvisar
+** [[file:estructura_para_improvisar_en_LA_m.png]]
+:PROPERTIES:
+:CUSTOM_ID: improvisar_en_La_m
+:END:
+
+#+BEGIN_EXPORT html
+<audio controls>
+
+<source src="I_IV_VI_Lam_acompanamiento_de_piano.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+END_EXPORT
