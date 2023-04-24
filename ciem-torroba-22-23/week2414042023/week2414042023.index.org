@@ -1,0 +1,138 @@
+#+title: Semana 24 Curso 2022/2023
+#+subtitle: Profesora Pilar Ariño \\
+#+subtitle: Homework dated 14 April 2023
+#+options: num:nil toc:2
+#+startup: overview
+#+HTML_HEAD: <style type="text/css">.title{font-size:58px; text-shadow: 1px 1px 1px #233b4d; text-align:center;}body{max-width:85%; margin:auto; font-family:'Open Sans', serif; font-size:100%; text-shadow: 1px 1px 1px #aaa; background-color: #F8FBFB;} </style>
+#+HTML_HEAD: <style type="text/css">#table-of-contents{ font-size: 10pt; position: fixed; right: 0em; top: 0em; background: #F3F9FE; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px;-moz-border-radius-bottomleft: 5px; text-align: right; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } #table-of-contents h2 {font-size: 10pt; max-width: 8em; font-weight: normal; padding-left: 0.5em; padding-left: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents {display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents {display: block; padding: 0.5em; clear: left; margin-top: -1.5em; } pre.src{position: static; } code{font-size: 1.1rem; border: 1px solid #ddd; background: #EEEEEE; -webkit-border-radius: 0.4em; -moz-border-radius: 0.4em; -ms-border-radius: 0.4em; -o-border-radius: 0.4em; border-radius: 0.4em; font-weight: normal; padding: 0 0.2em;}pre.src {background-color: #E5E5E5;} </style>
+#+HTML_HEAD_EXTRA: <style type="text/css">body{max-width:80%; margin:auto; }</style>
+#+HTML_LINK_HOME: ../index.html
+#+HTML_LINK_UP: ../index.html
+
+Repasar lo que ya os mande antes de la semana Santa, hemos grabado las lecciones [[#ritmo_20][20]], [[#ritmo_23][23]], [[#ritmo_25][25]] y [[#ritmo_27][27]]. Pero no lo hagáis a la vez que el audio, primero vosotros solos y luego el audio os sirve para saber si lo hacéis correctamente. Os mando en este email el pdf y tenéis los audios en el aula virtual en la carpeta 24ª semana.
+
+Cantar las melodías de lenguaje musical para cantar [[#para_cantar_28][28]], [[#para_cantar_29][29]] y [[#para_cantar_30][30]], en la grabación lo hacemos primero a capela (sin acompañamiento de piano) y luego con el acompañamiento de piano que hay en el aula virtual. Tenéis los audios grabados en clase en el aula virtual en la carpeta 24ª semana.
+
+Repasar teoria y dictados en la página web teoria.com \\
+Por último os mando un enlace de la actuación de la Danza del Sol, estuvisteis geniales  \\
+
+https://drive.google.com/file/d/1AVAcaxbKqqUiAySMjzMYPKtZuluUvvCM/view?usp=sharing
+
+* Las Lecciones de Ritmo
+
+** 
+:PROPERTIES:
+:CUSTOM_ID: ritmo_20
+:END:
+#+Caption: ritmo lección 20
+[[file:leccion_20_ritmo.png]]
+#+begin_export html
+<audio controls>
+
+<source src="Leccion_20_Ritmo_cuarto_elemental.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+
+** 
+:PROPERTIES:
+:CUSTOM_ID: ritmo_23
+:END:
+#+Caption: ritmo lección 23
+[[file:leccion_23_ritmo.png]]
+
+#+begin_export html
+<audio controls>
+
+<source src="Leccion_23_Ritmo_cuarto_elemental.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+** 
+:PROPERTIES:
+:CUSTOM_ID: ritmo_25
+:END:
+#+Caption: ritmo lección 25
+[[file:leccion_25_ritmo.png]]
+#+begin_export html
+<audio controls>
+
+<source src="Leccion_25_Ritmo_cuarto_elemental.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+** 
+:PROPERTIES:
+:CUSTOM_ID: ritmo_27
+:END:
+#+Caption: ritmo lección 27
+[[file:leccion_27_ritmo.png]]
+#+begin_export html
+<audio controls>
+
+<source src="Leccion_27_Ritmo_cuarto_elemental.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+* Lenguaje Musical Para Cantar
+**   
+:PROPERTIES:
+:CUSTOM_ID: para_cantar_28
+:END:
+
+#+begin_export html
+ <p>Lección para Cantar nº 28</p>
+<audio controls>
+
+<source src="Leccion_28_Lenguaje_musical_para_cantar.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+
+** 
+:PROPERTIES:
+:CUSTOM_ID: para_cantar_29
+:END:
+#+begin_export html
+ <p>Lección para Cantar nº 29</p>
+<audio controls>
+
+<source src="Leccion_29_Lenguaje_musical_para_cantar.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
+
+** 
+:PROPERTIES:
+:CUSTOM_ID: para_cantar_30
+:END:
+
+#+begin_export html
+ <p>Lección para Cantar nº 30</p>
+<audio controls>
+
+<source src="Leccion_30_Lenguaje_musical_para_cantar.m4a" type="audio/mpeg">
+
+  Your browser does not support the audio element.
+</audio>
+ <br>
+ <hr>
+#+end_export
