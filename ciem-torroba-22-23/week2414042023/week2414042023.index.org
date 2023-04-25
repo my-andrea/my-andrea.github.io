@@ -15,6 +15,9 @@ Cantar las melodías de lenguaje musical para cantar [[#para_cantar_28][28]], [[
 
 Repasar teoria y dictados en la página web teoria.com \\
 Por último os mando un enlace de la actuación de la Danza del Sol, estuvisteis geniales  \\
+#+begin_export html
+<iframe src="https://drive.google.com/file/d/1WgukOfGO-Bkc_Kz93lfFj5X5Ha05rjG9/preview" width="640" height="480" allowfullscreen allow="autoplay"></iframe>
+#+end_export
 
 https://drive.google.com/file/d/1AVAcaxbKqqUiAySMjzMYPKtZuluUvvCM/view?usp=sharing
 
