@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.3-alpha.1/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.3-alpha.1/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.3-alpha.1/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:q,mm:v}=window,j=new q.Toolbar;j.attach(v);const we=j.render();we.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(we)})})()</script><script>((f,d,h,u)=>{const g=f();window.mm=g.Markmap.create("svg#mindmap",(d||g.deriveOptions)(u),h)})(()=>window.markmap,null,{"content":"Cómo se forman","children":[{"content":"Volcanes","children":[],"payload":{"lines":"2,3"}},{"content":"Terremotos","children":[],"payload":{"lines":"3,4"}},{"content":"Maremotos<br>\n(Y qué pasa con ciertas Tormetas [?])","children":[{"content":"[El caso de la Tormenta Ashley] (https://my-andrea.github.io/school_subjects/Geo_Historia/2024/October/week_03/2024-10-18/Ashley_Storm.html)","children":[],"payload":{"lines":"6,7"}},{"content":"<a href=\"https://youtu.be/wC7EMd0yle0?si=z0ADgt5XovsWK8yG\"><img src=\"https://img.youtube.com/vi/wC7EMd0yle0/0.jpg\" alt=\"Alerta Amarilla, El ciclón Ashley\"></a>","children":[],"payload":{"lines":"7,8"}}],"payload":{"lines":"4,8"}}],"payload":{"lines":"1,2"}},{"colorFreezeLevel":2})</script>
+</body>
+</html>
