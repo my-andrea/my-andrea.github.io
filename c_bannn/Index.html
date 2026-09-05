@@ -61,12 +61,18 @@
       width: 100%;
       height: 100%;
       backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      transform-style: preserve-3d;
       border-radius: var(--card-radius);
       overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
       background: white;
+    }
+
+    .face-front {
+      transform: rotateY(0deg) translateZ(1px);
     }
 
     .face img {
@@ -78,7 +84,17 @@
 
      
     .face-back {
-      transform: rotateY(180deg);
+      transform: rotateY(180deg) translateZ(1px);
+    }
+
+    .card.flipped .face-front {
+      pointer-events: none;
+    }
+
+    .card.flipped .wa-overlay {
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
     }
 
      
@@ -159,8 +175,7 @@
   <div class="card" id="flashcard" onclick="toggleFlip()">
     <!-- CARA A (FRONT) -->
     <div class="face face-front">
-      <!-- Inserta aquí tu imagen A -->
-      <img id="imgCaraA" src="banner_e.jpeg" width="509" height="777" alt="Cara A">
+      <img class="banner-img" src="banner_e.jpeg" width="509" height="777" alt="Afiche">
       
       <!-- Botón WhatsApp superpuesto -->
       <div class="wa-overlay">
@@ -177,7 +192,7 @@
 
     <!-- CARA B (BACK) -->
     <div class="face face-back">
-      <img id="imgCaraB" src="banner_e.jpeg" width="509" height="777" alt="Cara B">
+      <img class="banner-img" src="banner_e.jpeg" width="509" height="777" alt="Afiche sin botón">
     </div>
   </div>
 </div>
@@ -185,9 +200,8 @@
 <div class="hint">👆 Haz clic en la tarjeta para girarla</div>
 
 <script>
-  // IDs de tus archivos en Google Drive
-  const FILE_ID_A = '';
-  const FILE_ID_B = '';
+  // Si usas Google Drive en GAS, pega aquí el ID del archivo. Si lo dejas vacío, usa banner_e.jpeg.
+  const IMAGE_FILE_ID = '';
   const LOCAL_IMAGE = 'banner_e.jpeg';
   const isGasEmbed = Boolean(window.google && google.script && google.script.run);
 
@@ -195,32 +209,32 @@
     document.body.classList.add('gas-embed');
   }
 
-  function loadImageFromDrive(fileId, elementId) {
-    if (!fileId || !isGasEmbed) {
-      document.getElementById(elementId).src = LOCAL_IMAGE;
+  function setBannerImage(src) {
+    document.querySelectorAll('.banner-img').forEach(function(img) {
+      img.src = src;
+    });
+  }
+
+  function loadBannerImage() {
+    if (!IMAGE_FILE_ID || !isGasEmbed) {
+      setBannerImage(LOCAL_IMAGE);
       return;
     }
 
     google.script.run
       .withSuccessHandler(function(base64Image) {
-        if (base64Image) {
-          document.getElementById(elementId).src = base64Image;
-        } else {
-          document.getElementById(elementId).src = LOCAL_IMAGE;
-          console.error('No se pudo cargar la imagen ' + elementId);
-        }
+        setBannerImage(base64Image || LOCAL_IMAGE);
       })
       .withFailureHandler(function(error) {
-        document.getElementById(elementId).src = LOCAL_IMAGE;
+        setBannerImage(LOCAL_IMAGE);
         console.error('Error en la llamada al servidor: ' + error);
       })
-      .getImageBase64(fileId);
+      .getImageBase64(IMAGE_FILE_ID);
   }
 
   // Función que se ejecuta al cargar la página
   window.onload = function() {
-    loadImageFromDrive(FILE_ID_A, 'imgCaraA');
-    loadImageFromDrive(FILE_ID_B, 'imgCaraB');
+    loadBannerImage();
   };
   // Configuración (edita aquí)
   const CONFIG = {
@@ -233,6 +247,10 @@
   // Elementos
   const card = document.getElementById('flashcard');
   const waButton = document.getElementById('waButton');
+
+  waButton.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
 
   // Función para voltear
   function toggleFlip() {
