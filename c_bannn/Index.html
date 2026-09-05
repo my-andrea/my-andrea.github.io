@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta flashcard</title>
+  <style>
+    :root {
+      --banner-ratio: 509 / 777;
+      --banner-fit-width: 65.5dvh;
+      --card-radius: 14px;
+    }
+
+    /*Reset y fondo */
+     
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 100dvh;
+      background: transparent;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow-x: hidden;
+    }
+
+     
+    .card-container {
+      perspective: 1500px;
+      width: min(100%, 509px, var(--banner-fit-width));
+      aspect-ratio: var(--banner-ratio);
+      line-height: 0;
+    }
+
+    .card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: var(--banner-ratio);
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      cursor: pointer;
+      border-radius: var(--card-radius);
+    }
+
+     
+    .card.flipped {
+      transform: rotateY(180deg);
+    }
+
+     
+    .face {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+    }
+
+    .face img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+     
+    .face-back {
+      transform: rotateY(180deg);
+    }
+
+     
+    .wa-overlay {
+      position: absolute;
+      bottom: 14%;
+      left: 50%;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      pointer-events: none;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    .wa-overlay a {
+      pointer-events: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      background: #25D366;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 1rem;
+      box-shadow: 0 4px 10px rgba(37, 211, 102, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .wa-overlay a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(37, 211, 102, 0.6);
+    }
+    .wa-overlay a svg {
+      width: 33px;
+      height: 25px;
+      fill: white;
+    }
+
+     
+    .hint {
+      margin-top: 10px;
+      color: #555;
+      font-size: 0.9rem;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .gas-embed .hint {
+      display: none;
+    }
+
+     
+    @media (max-width: 480px) {
+      .card-container {
+        width: min(100%, 360px, var(--banner-fit-width));
+      }
+      .wa-overlay a {
+        padding: 9px 14px;
+        font-size: 0.82rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="card" id="flashcard" onclick="toggleFlip()">
+    <!-- CARA A (FRONT) -->
+    <div class="face face-front">
+      <!-- Inserta aquí tu imagen A -->
+      <img id="imgCaraA" src="banner_e.jpeg" width="509" height="777" alt="Cara A">
+      
+      <!-- Botón WhatsApp superpuesto -->
+      <div class="wa-overlay">
+        <a href="#" id="waButton" target="_blank">
+          <!-- Icono de WhatsApp (SVG) -->
+          <svg viewBox="0 0 24 24">
+            <path d="M12.032 21.965c-1.821 0-3.578-.494-5.086-1.416l-.326-.195-3.787 1.239 1.262-3.693-.213-.338a9.932 9.932 0 0 1-1.523-5.285c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm0-18.5c-4.686 0-8.5 3.814-8.5 8.5 0 1.588.438 3.14 1.272 4.467l.146.238-.74 2.166 2.236-.731.237.145a8.46 8.46 0 0 0 4.35 1.215c4.686 0 8.5-3.814 8.5-8.5s-3.814-8.5-8.5-8.5z"/>
+            <path d="M16.96 13.336c-.26-.13-1.536-.758-1.774-.845-.238-.087-.412-.13-.586.13-.174.26-.674.845-.826 1.018-.152.174-.304.195-.564.065s-1.102-.406-2.098-1.295c-.776-.691-1.3-1.545-1.452-1.807-.152-.26-.016-.4.114-.53.117-.117.26-.304.39-.456.13-.152.174-.26.26-.433.087-.174.043-.326-.022-.456-.065-.13-.586-1.412-.803-1.934-.211-.506-.426-.437-.586-.445-.152-.009-.326-.009-.5-.009s-.456.065-.694.326c-.238.26-.91.889-.91 2.168s.932 2.515 1.062 2.688c.13.174 1.835 2.802 4.446 3.76 2.611.958 2.611.638 3.082.598.471-.039 1.52-.622 1.734-1.222.214-.6.214-1.115.15-1.222-.065-.108-.238-.174-.498-.304z"/>
+          </svg>
+          Contactar por WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- CARA B (BACK) -->
+    <div class="face face-back">
+      <img id="imgCaraB" src="banner_e.jpeg" width="509" height="777" alt="Cara B">
+    </div>
+  </div>
+</div>
+
+<div class="hint">👆 Haz clic en la tarjeta para girarla</div>
+
+<script>
+  // IDs de tus archivos en Google Drive
+  const FILE_ID_A = '';
+  const FILE_ID_B = '';
+  const LOCAL_IMAGE = 'banner_e.jpeg';
+  const isGasEmbed = Boolean(window.google && google.script && google.script.run);
+
+  if (isGasEmbed) {
+    document.body.classList.add('gas-embed');
+  }
+
+  function loadImageFromDrive(fileId, elementId) {
+    if (!fileId || !isGasEmbed) {
+      document.getElementById(elementId).src = LOCAL_IMAGE;
+      return;
+    }
+
+    google.script.run
+      .withSuccessHandler(function(base64Image) {
+        if (base64Image) {
+          document.getElementById(elementId).src = base64Image;
+        } else {
+          document.getElementById(elementId).src = LOCAL_IMAGE;
+          console.error('No se pudo cargar la imagen ' + elementId);
+        }
+      })
+      .withFailureHandler(function(error) {
+        document.getElementById(elementId).src = LOCAL_IMAGE;
+        console.error('Error en la llamada al servidor: ' + error);
+      })
+      .getImageBase64(fileId);
+  }
+
+  // Función que se ejecuta al cargar la página
+  window.onload = function() {
+    loadImageFromDrive(FILE_ID_A, 'imgCaraA');
+    loadImageFromDrive(FILE_ID_B, 'imgCaraB');
+  };
+  // Configuración (edita aquí)
+  const CONFIG = {
+    // Número de teléfono con código de país (sin '+' ni espacios)
+    phoneNumber: '34600000000',        // Ejemplo: 34600000000 (España)
+    // Mensaje predeterminado (se URLencodea automáticamente)
+    message: 'Hola, me interesa consultar sobre los servicios que anuncian en la tarjeta.'
+  };
+
+  // Elementos
+  const card = document.getElementById('flashcard');
+  const waButton = document.getElementById('waButton');
+
+  // Función para voltear
+  function toggleFlip() {
+    card.classList.toggle('flipped');
+  }
+
+  // Construir enlace de WhatsApp
+  function buildWaLink() {
+    const url = 'https://wa.me/' + CONFIG.phoneNumber + '?text=' + encodeURIComponent(CONFIG.message);
+    waButton.href = url;
+  }
+
+  // Inicializar
+  buildWaLink();
+
+  // (Opcional) Abrir el enlace en una nueva pestaña; ya tiene target="_blank"
+</script>
+
+</body>
+</html>
